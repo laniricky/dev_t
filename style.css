@@ -1,0 +1,268 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: #fae6bf;
+}
+
+#nav {
+    background-color: #fae6bf;
+    padding: 8px 0;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto 70px;
+    position: relative;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+    right: 0;
+    position: absolute;
+
+}
+
+#nav ul li {
+    padding: 5px 0 10px 10px;
+    text-align: right;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+#nav ul li a:hover,
+#about-contact ul li p:hover {
+    color: #FFAA00;
+    text-decoration: underline;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#introduction {
+    background-color: #fae6bf;
+    display: flex;
+    padding-top: 40px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 65%;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+.about-text p {
+    font-weight: 300;
+    margin: 20px 0 50px;
+    font-size: 1.4em;
+}
+
+.int-buttons {
+    padding: 10px 0;
+}
+
+.int-buttons button {
+    border: 2px solid #FFAA00;
+    background-color: #fae6bf;
+    color: #212121;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.int-buttons button:hover {
+    border: 2px solid #212121;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#projbutton {
+    background-color: #FFAA00;
+}
+
+#projbutton:hover {
+    background-color: #212121;
+    color: #fae6bf;
+    transition: all 0.2s;
+}
+
+.int-photo {
+    width: 35%;
+}
+
+.int-photo img {
+    width: 100%;
+    border: solid 2px #FFAA00;
+    border-bottom-left-radius: 50%;
+    box-shadow: 5px -5px #FFAA00;
+}
+
+#skills,
+#contact {
+    width: 700px;
+    margin: 30px auto;
+    padding-top: 100px;
+}
+
+#about-skills {
+    width: 100%;
+}
+
+#about-skills ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding-inline-start: 0;
+}
+
+#about-skills ul li {
+    width: 25%;
+}
+
+#about-skills ul li div {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#about-skills ul li p {
+    font-weight: 400px;
+}
+
+#about-skills ul li div img {
+    height: 100%;
+}
+
+#projects {
+    background-color: #212121;
+    padding-bottom: 80px;
+}
+
+.projects-container {
+    display: flex;
+    padding-top: 100px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.pro-photo {
+    width: 35%;
+    height: 300px;
+}
+
+.pro-photo img {
+    height: 90%;
+    width: 100%;
+    border: solid 2px #FFAA00;
+    border-bottom-right-radius: 50%;
+    box-shadow: -5px -5px #FFAA00;
+}
+
+.project-text h2,
+.project-text p,
+.projects {
+    margin: 0 0 0 30px;
+}
+
+.project-text h2 {
+    color: #FFAA00;
+    padding-bottom: 20px;
+}
+
+.project-text p {
+    color: #fae6bf;
+    padding-bottom: 40px;
+}
+
+.projects {
+    margin: 10px;
+
+}
+
+.projects a {
+    border: 2px solid #fae6bf;
+    background-color: #212121;
+    color: #fae6bf;
+    font-size: 1.5em;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    color: #FFAA00;
+    border: 2px solid #FFAA00;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.projects-tab {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.projects-tab ul,
+#about-contact ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.projects-tab ul li {
+    width: 30%;
+}
+
+.projects-tab ul li p {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.project-spec {
+    height: 50px;
+    text-align: center;
+}
+
+.project-spec img {
+    height: 100%;
+}
+
+#about-contact {
+    width: 100%;
+    padding: 0 0 100px;
+}
+
+#about-contact p {
+    margin: 10px 0;
+}
+
+#about-contact ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#about-contact ul li {
+    width: 20%;
+
+}
+
+#about-contact ul li p {
+    font-weight: 400;
+}
